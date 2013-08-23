@@ -12,5 +12,7 @@
 			<li><a href="<?= base_url('edit'); ?>">View/Edit Widgets</a></li>
 		</ul>
 	</div>
+
+	<!-- if featured widget exists, display it -->
 </div>
 <? $this->load->view('layout/footer'); ?>

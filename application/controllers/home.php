@@ -13,7 +13,12 @@ class Home extends CI_Controller {
 	
 	public function index() {
 
-		$data = array();
+		// get random widget
+		$data['widget'] = '';
+
+		/* multi
+		line
+		comment */
 
 		$this->load->view('pages/index',$data);
 	}
